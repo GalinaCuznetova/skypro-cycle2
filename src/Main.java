@@ -6,7 +6,6 @@ public class Main {
         int fee1 = 29000;
         int accumulation1 = 0;
         int i = 0;
-        while (accumulation1 <= 2_459_000) {
             for (; accumulation1 <= 2_459_000; i++) {
                 accumulation1 = accumulation1 + fee1;
                 accumulation1 = accumulation1 + accumulation1 / 100;
@@ -15,7 +14,7 @@ public class Main {
                 System.out.println(i);
             }
             System.out.println("За " + i + " месяца сумма накоплений равна " + accumulation1);
-        }
+
 
         //Задание 1.2
         System.out.println("Задание 1.2");
